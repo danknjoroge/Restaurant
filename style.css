@@ -1,4 +1,9 @@
 
+.nav{
+    background-image:url();
+    background-repeat: no-repeat;
+    height:800px;
+}
 .nav-bar{
 
     margin: 50px;
@@ -8,12 +13,13 @@
     font-size:20px;
     margin-left: 40px;
     text-decoration: none;
+    color: #f75a11;
 }
 
 .btn{
-    background-color: orange;
-    height: 70px;
-    width: 200px;
+    background-color: #f75a11;
+    height: 60px;
+    width: 180px;
     border-radius:30px;
     color: white;
     text-align: center;
@@ -21,6 +27,135 @@
     border: white;
   
 }
+.nav h1{
+    color: #f75a11;
+    font-size: 3.5em;
+}
 .intro {
     text-align: center;
+    margin-top:10%
+    
+}
+.intro>p{
+    font-size: 25px;
+}
+.container{
+    width: 50%;
+    border:1px solid green;
+    height:700px
+    
+}
+.menup{
+    font-size:20px;
+    background-color: whitesmoke;
+    height:1500px;
+}
+.menup h4{
+    margin-left: 20px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-evenly;
+}
+.one{
+    width: 50%;
+    border:1px solid green;
+    height:700px
+}
+.left{
+    margin: 70px;
+    font-size:25px;
+}
+#cont{
+    display: flex;
+    justify-content: space-evenly;
+}
+.row{
+    height:500px;
+    width:20%;
+    border:none;
+    background-color: #fff;
+    
+}
+.row p{
+    margin-left: 30px;
+}
+.menuu{
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+.line{
+    width: 90px;
+    
+    border-bottom: 4px solid #FE5000;
+    position: absolute;
+}
+.bt1{
+    background-color: #eb5713;
+    color: #fff;
+    margin-left: 80px;
+    border: none;
+    height:30px;
+    width:45px;
+
+}
+.bt2{
+    background-color: #f7f6f5;
+    margin-left: 26px;
+    border-radius: 30px;
+    height: 30px;
+    width: 90px;
+    border: none;
+    color:#FE5000;
+}
+.bt3{
+    background-color: #f3ebe3;
+    margin-left: 26px;
+    border-radius: 30px;
+    height: 30px;
+    width: 90px;
+    color: #fc580d;
+    border: none;
+}
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:30px;
+}
+.service{
+    border: 1px solid green;
+    height: 400px;
+    width: 25%;
+    text-align: center;
+    margin-top: 10px;
+}
+.ourserv{
+    height: 1000px;
+}
+.cust{
+    text-align: center;
+    background-color: aliceblue;
+    height: 1000px;
+    padding-top: 70px;
+    font-size: 25px;
+}
+.cus{
+    width:27%;
+    border: 1px solid green;
+    height: 600px;
+    margin: 30px;
+    background-color: rgb(255, 255, 255);
+}
+.cust .services img{
+    margin: 70px;
+    height: 200px;
 }
