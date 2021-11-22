@@ -1,6 +1,6 @@
 
 .nav-bar{
-    
+
     margin: 50px;
 }
 .nav-bar a{
@@ -8,4 +8,19 @@
     font-size:20px;
     margin-left: 40px;
     text-decoration: none;
+}
+
+.btn{
+    background-color: orange;
+    height: 70px;
+    width: 200px;
+    border-radius:30px;
+    color: white;
+    text-align: center;
+    font-style: bold;
+    border: white;
+  
+}
+.intro {
+    text-align: center;
 }
