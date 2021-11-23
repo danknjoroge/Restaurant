@@ -172,16 +172,21 @@
     font-size: 25px;
 }
 input[type="text"]{
-    background-color:rgb(109, 87, 87);
-    height: 50px;
-    width: 900px;
+    background-color:whitesmoke;
+    height: 60px;
+    width: 1200px;
     margin-top: 30px;
 }
 input[type="date"], input[type="time"], input[type="text "]{
-    background-color: #eb5713;
-    height: 50px;
-    width: 450px;
+    background-color: whitesmoke;
+    height: 60px;
+    width: 575px;
     margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+textarea{
+    background-color:whitesmoke;
 }
 .form{
     text-align: center;
