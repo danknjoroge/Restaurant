@@ -146,10 +146,15 @@
 }
 .cust{
     text-align: center;
-    background-color: aliceblue;
+    background-image: url(images/mike-PxJ9zkM2wdA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 1000px;
     padding-top: 70px;
     font-size: 25px;
+}
+.custo{
+    color: #fff;
 }
 .cus{
     width:27%;
@@ -195,12 +200,17 @@ textarea{
     display: flex;
     justify-content: space-evenly;
     font-size:30px;
-    height:700px;
+    height:500px;
+    background-image: url(images/mike-PxJ9zkM2wdA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 1700px 500px;
+    color: #fff;
 }
 .contact{
+    padding-top: 150px;
     display: flex;
     justify-content:space-evenly;
-    height: 600px;
+    height: 400px;
     background-color: grey;
 }
 input[type="submit"]{
@@ -208,9 +218,28 @@ input[type="submit"]{
     background-color: #f75a11;
     width: 400px;
     height: 50px;
+
 }
 input[type=" text "]{
     width:390px;
     height: 50px;
     border-radius: 1px;
+    
 }
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+}
+
+.checked {
+    color: #fc580d;
+}
+  .fa-star-half-o {
+    color: #fc580d;
+  }
+i{
+      margin: 0px;
+      color: #fc580d;
+ }
+ 
