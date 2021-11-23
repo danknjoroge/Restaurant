@@ -191,3 +191,26 @@ textarea{
 .form{
     text-align: center;
 }
+.price{
+    display: flex;
+    justify-content: space-evenly;
+    font-size:30px;
+    height:700px;
+}
+.contact{
+    display: flex;
+    justify-content:space-evenly;
+    height: 600px;
+    background-color: grey;
+}
+input[type="submit"]{
+    color: #fff;
+    background-color: #f75a11;
+    width: 400px;
+    height: 50px;
+}
+input[type=" text "]{
+    width:390px;
+    height: 50px;
+    border-radius: 1px;
+}
