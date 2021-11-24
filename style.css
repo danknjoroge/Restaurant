@@ -1,8 +1,13 @@
 
 .nav{
-    background-image:url();
+    background-image:url(/images/dolores-preciado-Vu_fjfasu-4-unsplash.jpg);
     background-repeat: no-repeat;
     height:800px;
+    background-size: cover;
+    color: #fff;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    opacity: 0.9px;
 }
 .nav-bar{
 
@@ -13,7 +18,7 @@
     font-size:20px;
     margin-left: 40px;
     text-decoration: none;
-    color: #f75a11;
+    color: #fff;
 }
 
 .btn{
@@ -28,7 +33,7 @@
   
 }
 .nav h1{
-    color: #f75a11;
+    color: #fff;
     font-size: 3.5em;
 }
 .intro {
@@ -41,8 +46,9 @@
 }
 .container{
     width: 50%;
-    border:1px solid green;
+    border:none;
     height:700px
+    
     
 }
 .menup{
@@ -53,14 +59,22 @@
 .menup h4{
     margin-left: 20px;
 }
+.menup p{
+    color: rgb(129, 126, 126);
+}
 
 .about{
+    
     display: flex;
     justify-content: space-evenly;
 }
+.about p{
+    color: rgb(129, 126, 126);
+    padding-top: 50px;
+}
 .one{
     width: 50%;
-    border:1px solid green;
+    border:none;
     height:700px
 }
 .left{
@@ -70,7 +84,7 @@
 #cont{
     display: flex;
     justify-content: space-evenly;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 .row{
     height:500px;
@@ -133,11 +147,15 @@
     margin-top:30px;
 }
 .service{
-    border: 1px solid green;
+    border: none;
+    color: rgb(119, 114, 114);
     height: 400px;
     width: 25%;
     text-align: center;
     margin-top: 10px;
+}
+.services .service h3{
+    color: black;
 }
 .ourserv{
     height: 1000px;
@@ -169,7 +187,7 @@
 }
 .booking{
     height: 1200px;
-    background-color: aqua;
+    color: grey;
 }
 .book{
     padding: 70px;
@@ -181,6 +199,7 @@ input[type="text"]{
     height: 60px;
     width: 1200px;
     margin-top: 30px;
+    border: none;
 }
 input[type="date"], input[type="time"], input[type="text "]{
     background-color: whitesmoke;
@@ -189,9 +208,11 @@ input[type="date"], input[type="time"], input[type="text "]{
     margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
+    border: none;
 }
 textarea{
     background-color:whitesmoke;
+    border: none;
 }
 .form{
     text-align: center;
@@ -200,18 +221,23 @@ textarea{
     display: flex;
     justify-content: space-evenly;
     font-size:30px;
-    height:500px;
+    height:600px;
     background-image: url(images/mike-PxJ9zkM2wdA-unsplash.jpg);
     background-repeat: no-repeat;
-    background-size: 1700px 500px;
+    background-size: 1700px 600px;
     color: #fff;
+}
+.price h1{
+    padding-top:120px;
 }
 .contact{
     padding-top: 150px;
     display: flex;
     justify-content:space-evenly;
     height: 400px;
-    background-color: grey;
+    background-color: rgb(27, 26, 26);
+    color: #fff;
+    font-size: 25px;
 }
 input[type="submit"]{
     color: #fff;
@@ -242,4 +268,19 @@ i{
       margin: 0px;
       color: #fc580d;
  }
+ 
+.footer{
+    background-color: rgb(48, 46, 46); 
+    color: white; 
+    font-size: 20px;
+}
+.fimg{
+    margin-right: 50px;
+}
+.fimg img{
+    margin-left:20px;
+}
+.copyr{
+    margin-left: 50px;
+}
  
